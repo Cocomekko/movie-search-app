@@ -1,0 +1,71 @@
+.movies-search-box{
+  display: flex;
+  justify-content: center;
+  animation-name: animate-searchbar;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  width: 50px;
+  transition: 0.7s;
+  margin-bottom: 50px;
+  position: sticky;
+  top: 40px;
+  z-index: 1;
+}
+.movies-input-bar{
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgba(250, 201, 255, 0.8);
+  padding: 0 24px;
+  border: none;
+  height: 49px;
+  box-sizing: border-box;
+  outline: none;
+  position: relative;
+  left: 23.5px;
+  transition: 0.2s;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.search-button{
+  position: relative;
+  right: 23.75px;
+  top: 1.5px;
+  height: 45px;
+  min-width: 45px;
+  background: rgba(230, 3, 255, 0.8);
+  border-radius: 50%;
+  border: none;
+  font-size: 23px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.movies-search-box:hover{
+  width: 70%;
+}
+.movies-input-bar:hover{
+  border: solid 2px rgba(230, 26, 255, 0.8);
+}
+
+@keyframes animate-searchbar{
+  0%{
+    width: 0%;  
+  }
+  25%{
+       width: 25%;
+  }
+
+  75%{
+    width: 70%;
+  }
+  100%{
+      width: 50px; 
+  }
+}
+
