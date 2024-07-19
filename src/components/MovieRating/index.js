@@ -1,5 +1,4 @@
 import ProgressBar from "@ramonak/react-progress-bar"
-import './index.css'
 
 const MovieRating = props => {
 
