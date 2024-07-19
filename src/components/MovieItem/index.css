@@ -19,6 +19,7 @@ li{
   border: 1px solid rgba(255, 255, 255, 1);
   box-shadow: 1px 1px 50px 0px;
   transition: 0.2s;
+  flex-wrap: wrap;
 }
 .movie-card:hover{
   transform: scale(1.05);
@@ -46,6 +47,7 @@ color: white;
 }
 .movie-rating{
   width: 325px;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   padding: 5px 10px;
